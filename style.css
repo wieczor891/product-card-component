@@ -13,6 +13,10 @@
 }
 
 body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
 	background-color: var(--cream);
 }
 
@@ -28,7 +32,6 @@ h1 {
 }
 
 .component {
-	margin: 20px auto;
 	width: 350px;
 	border-radius: 10px;
 	overflow: hidden;
@@ -82,7 +85,7 @@ img {
 	background-color: hsl(157, 35%, 25%);
 }
 
-@media (min-width: 400px) {
+@media (min-width: 700px) {
 	.component {
 		display: flex;
 		width: 650px;
